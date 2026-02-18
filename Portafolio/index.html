@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=" https://jenni0611.github.io/Portafolio/" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MiNombre<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Bienvenida a mi portafolio</h2>
+            <h1>Hola, soy <span class="highlight">Jennifer de Ascension Sanchez</span></h1>
+            <p>Desarrollador Frontend enfocado en crear experiencias digitales únicas.</p>
+            <button onclick="scrollToSection('projects')">Ver proyectos</button>
+        </div>
+    </section>
+
+<section id="about">
+    <h2>Sobre mí</h2>
+    <p>Me especializo en documentación técnica, programación en Java y creación de soluciones accesibles.</p>
+  </section>
+
+    <section id="projects" class="projects">
+        <h2>Mis Proyectos</h2>
+        <div class="project-grid">
+            <div class="project-card">
+            <h3>Infografías educativas</h3>
+            <p>Diseños visuales para explicar conceptos de estadística y redes.</p>
+                <div class="project-img"></div>
+                <div class="project-info">
+                    <h3>E-commerce App</h3>
+                    <p>HTML, CSS, JS</p>
+                </div>
+            </div>
+            </div>
+    </section>
+
+   <section id="contact">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Jennifer - Portafolio Digital</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
